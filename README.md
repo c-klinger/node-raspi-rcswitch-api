@@ -11,7 +11,7 @@ Allows controlling of 433Mhz RC remote controlled power sockets with the raspber
 
 ## Installation
 ```bash
-$ npm install node-raspi-rcswitch-api
+$ npm install raspi-rcswitch-api
 ```
 
 ## Configuration
