@@ -111,7 +111,7 @@ function mappedSwitchFunction(request, response, next){
 
   switchUnit(switchConfig[request.params.deviceName].systemCode, parseInt(switchConfig[request.params.deviceName].unitCode), request.params.state);
 
-  response.send('{"systemCode:" '+switchConfig[request.params.deviceName].systemCode+',"systemCode:" '+switchConfig[request.params.deviceName].unitCode+',"state": '+request.params.state+'}');
+  response.send({"systemCode": switchConfig[request.params.deviceName].systemCode, "systemCode:" switchConfig[request.params.deviceName].unitCode, "state": request.params.state});
   next();
 }
 
