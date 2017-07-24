@@ -1,6 +1,6 @@
 {
   "name": "raspi-rcswitch-api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RESTful API for the node-rcswitch binding based on Node.js/restify.",
   "main": "server.js",
   "engines": {
