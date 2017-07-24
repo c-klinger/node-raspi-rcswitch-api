@@ -45,7 +45,7 @@ $ npm stop
 http://host:port/api/v1/switch/systemCode/unitCode/state
 
 * `systemCode` five character long binary system code identifying the rc switch system.
-* `systemCode` integer number between 1 and 4 identifying the power socket number in the system.
+* `unitCode` integer number between 1 and 4 identifying the power socket number in the system.
 * `state` can be either `on` or `off` for the target state of the power socket.
 
 For example a GET call to `http://host:port/api/v1/switch/10101/2/on` will switch on the second power socket of the system `10101`.
