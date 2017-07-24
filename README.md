@@ -1,5 +1,6 @@
 node-raspi-rcswitch-api
 =======================
+[![npm version](https://badge.fury.io/js/raspi-rcswitch-api.svg)](https://badge.fury.io/js/raspi-rcswitch-api)
 
 RESTful API for the [node-rcswitch](https://github.com/marvinroger/node-rcswitch) binding based on Node.js/restify.
 Allows controlling of 433Mhz RC remote controlled power sockets with the raspberry-pi using HTTP Protocol.
