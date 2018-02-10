@@ -85,7 +85,7 @@ function switchFunction(request, response, next){
 
   switchUnit(request.params.systemCode, parseInt(request.params.unitCode), request.params.state);
 
-  response.send({"systemCode:": request.params.systemCode, "unitCode:": request.params.unitCode, "state": request.params.state});
+  response.send({"systemCode": request.params.systemCode, "unitCode": request.params.unitCode, "state": request.params.state});
   next();
 }
 
