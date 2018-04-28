@@ -4,6 +4,7 @@ node-raspi-rcswitch-api
 
 RESTful API for the [node-rcswitch](https://github.com/marvinroger/node-rcswitch) binding based on Node.js/restify.
 Allows controlling of 433Mhz RC remote controlled power sockets with the raspberry-pi using HTTP Protocol.
+There is a [german post](https://chrisklinger.de/2017/07/433-mhz-funksteckdosen-mit-raspberry-pi-ueber-rest-api-schalten/) on my blog describing the hardware requirements and schematics.
 
 ## Requirements
 
