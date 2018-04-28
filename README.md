@@ -67,7 +67,7 @@ The following example provides access the power socket with the system code `010
 Now you can quickly access the power plug using http://host:port/api/v1/switch/Living_Room_Ambient_Light/state. For the `state` and the config values the same restrictions as mentioned in 'Direct device access' section apply.
 
 ## License
-Copyright (c) 2017 Chris Klinger. Licensed under MIT license, see  [LICENSE](https://github.com/c-klinger/react-life-calendar/blob/master/LICENSE.md) for the full license.
+Copyright (c) 2017 Chris Klinger. Licensed under MIT license, see  [LICENSE](https://github.com/c-klinger/node-raspi-rcswitch-api/blob/master/LICENSE.md) for the full license.
 
 ## Bugs
 See <https://github.com/c-klinger/node-raspi-rcswitch-api/issues>.
