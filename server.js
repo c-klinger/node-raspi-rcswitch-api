@@ -10,7 +10,7 @@ const errors        = require('restify-errors');
 const bunyan        = require('bunyan');
 const winston       = require('winston');
 const bunyanWinston = require('bunyan-winston-adapter');
-const rcswitch      = require('rcswitch');
+const rcswitch      = require('rcswitch-gpiomem3');
 const path          = require('path');
 
 /**
