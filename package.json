@@ -32,7 +32,7 @@
   "dependencies": {
     "bunyan-winston-adapter": "^0.2.0",
     "daemonize2": "^0.4.2",
-    "rcswitch": "^0.3.1",
+    "rcswitch-gpiomem3": "^0.3.0",
     "restify": "^5.0.0",
     "restify-errors": "^4.3.0",
     "winston": "^2.3.1"
